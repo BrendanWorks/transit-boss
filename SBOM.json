@@ -1,0 +1,367 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:transit-boss-sbom-2025-01-27",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-01-27T00:00:00Z",
+    "tools": [
+      {
+        "vendor": "Brendan Works",
+        "name": "Manual SBOM Generation",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "transit-boss",
+      "name": "Transit Boss",
+      "version": "1.0.0",
+      "description": "Real-time transit alerts dashboard for Puget Sound regional transportation",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Brendan Works",
+        "contact": [
+          {
+            "email": "pugetsoundtransitboss@gmail.com"
+          }
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "type": "framework",
+      "bom-ref": "react",
+      "name": "React",
+      "version": "18.3.1",
+      "description": "A JavaScript library for building user interfaces",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react@18.3.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://reactjs.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "react-dom",
+      "name": "React DOM",
+      "version": "18.3.0",
+      "description": "React package for working with the DOM",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-dom@18.3.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "lucide-react",
+      "name": "Lucide React",
+      "version": "0.344.0",
+      "description": "Beautiful & consistent icon toolkit made by the community",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lucide-react@0.344.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://lucide.dev/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "protobufjs",
+      "name": "ProtoBuf.js",
+      "version": "7.2.5",
+      "description": "Protocol Buffers for JavaScript (& TypeScript)",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/protobufjs@7.2.5",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/protobufjs/protobuf.js"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "bom-ref": "vite",
+      "name": "Vite",
+      "version": "5.4.2",
+      "description": "Next generation frontend tooling",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vite@5.4.2",
+      "scope": "optional",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://vitejs.dev/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "vitejs-plugin-react",
+      "name": "Vite React Plugin",
+      "version": "4.3.1",
+      "description": "The all-in-one Vite plugin for React projects",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/@vitejs/plugin-react@4.3.1",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "bom-ref": "typescript",
+      "name": "TypeScript",
+      "version": "5.5.3",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/typescript@5.5.3",
+      "scope": "optional",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "tailwindcss",
+      "name": "Tailwind CSS",
+      "version": "3.4.1",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/tailwindcss@3.4.1",
+      "scope": "optional",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tailwindcss.com/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "autoprefixer",
+      "name": "Autoprefixer",
+      "version": "10.4.18",
+      "description": "Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/autoprefixer@10.4.18",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "bom-ref": "postcss",
+      "name": "PostCSS",
+      "version": "8.4.35",
+      "description": "Tool for transforming CSS with JavaScript",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postcss@8.4.35",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "bom-ref": "eslint",
+      "name": "ESLint",
+      "version": "9.9.1",
+      "description": "An AST-based pattern checker for JavaScript",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/eslint@9.9.1",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "bom-ref": "netlify-cli",
+      "name": "Netlify CLI",
+      "version": "17.0.0",
+      "description": "Netlify command line tool",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/netlify-cli@17.0.0",
+      "scope": "optional"
+    }
+  ],
+  "services": [
+    {
+      "bom-ref": "netlify-functions",
+      "name": "Netlify Functions",
+      "description": "Serverless functions for API proxying",
+      "endpoints": [
+        "/.netlify/functions/proxy-sound-transit",
+        "/.netlify/functions/proxy-king-county-metro",
+        "/.netlify/functions/proxy-community-transit",
+        "/.netlify/functions/proxy-wa-ferries"
+      ],
+      "authenticated": false,
+      "x-trust-boundary": true
+    },
+    {
+      "bom-ref": "sound-transit-api",
+      "name": "Sound Transit GTFS-RT API",
+      "description": "Real-time transit alerts from Sound Transit",
+      "endpoints": [
+        "https://s3.amazonaws.com/st-service-alerts-prod/alerts_pb.json"
+      ],
+      "authenticated": false,
+      "x-trust-boundary": true,
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.soundtransit.org/"
+        }
+      ]
+    },
+    {
+      "bom-ref": "king-county-metro-api",
+      "name": "King County Metro GTFS-RT API",
+      "description": "Real-time transit alerts from King County Metro",
+      "endpoints": [
+        "https://s3.amazonaws.com/kcm-alerts-realtime-prod/alerts.pb"
+      ],
+      "authenticated": false,
+      "x-trust-boundary": true,
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://kingcounty.gov/en/dept/metro/"
+        }
+      ]
+    },
+    {
+      "bom-ref": "community-transit-api",
+      "name": "Community Transit GTFS-RT API",
+      "description": "Real-time transit alerts from Community Transit",
+      "endpoints": [
+        "https://s3.amazonaws.com/commtrans-realtime-prod/alerts.pb"
+      ],
+      "authenticated": false,
+      "x-trust-boundary": true,
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.communitytransit.org/"
+        }
+      ]
+    },
+    {
+      "bom-ref": "wa-ferries-api",
+      "name": "Washington State Ferries API",
+      "description": "Real-time ferry alerts from WSDOT",
+      "endpoints": [
+        "https://www.wsdot.wa.gov/ferries/api/schedule/rest/alerts"
+      ],
+      "authenticated": true,
+      "x-trust-boundary": true,
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://wsdot.wa.gov/travel/washington-state-ferries/"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "website",
+      "url": "https://transitboss.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/brendanworks/transit-boss"
+    },
+    {
+      "type": "support",
+      "url": "mailto:pugetsoundtransitboss@gmail.com"
+    }
+  ],
+  "vulnerabilities": [],
+  "annotations": [
+    {
+      "subjects": ["transit-boss"],
+      "annotationType": "other",
+      "annotator": "Brendan Works",
+      "timestamp": "2025-01-27T00:00:00Z",
+      "text": "This application aggregates real-time transit data from multiple public APIs to provide a unified dashboard for Puget Sound regional transportation alerts."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Avenir', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+}
+
+@layer components {
+  .ct-card {
+    @apply bg-white rounded-lg shadow-sm border border-ct-gray-200;
+  }
+  
+  .ct-button-primary {
+    @apply bg-ct-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-ct-blue-600 focus:ring-2 focus:ring-ct-blue-500 focus:ring-offset-2 transition-all duration-200;
+  }
+  
+  .ct-button-secondary {
+    @apply bg-ct-gray-100 text-ct-gray-700 px-4 py-2 rounded-lg font-semibold hover:bg-ct-gray-200 focus:ring-2 focus:ring-ct-gray-500 focus:ring-offset-2 transition-all duration-200;
+  }
+  
+  .ct-input {
+    @apply w-full px-3 py-2 border border-ct-gray-300 rounded-lg focus:ring-2 focus:ring-ct-blue-500 focus:border-ct-blue-500 outline-none transition-colors;
+  }
+}
+
+/* Custom font weight classes for Avenir */
+.font-avenir-bold {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 700;
+}
+
+.font-avenir-heavy {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 900;
+}
